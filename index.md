@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Kyrillos Hanna’s Page"
+title: "Creation for Change"
 layout: splash
 header:
   overlay_color: "#000"

@@ -3,13 +3,15 @@
 title: "About Kyrillos Hanna"
 
 ---
-Kyrillos Hanna is driven by the idea of making his experiences better shape the future experiences of others. 
 
 ## Education
 
-Kyrillos Hanna prides himself on his multidisciplinary field of study which is proving more invaluable than ever. His concentration is in socio-technical systems.
+Kyrillos Hanna prides himself on his multidisciplinary field of study which is proving more invaluable than ever. 
+He is driven by the idea of making his experiences better shape the future experiences of others.
+His concentration is in socio-technical systems.
 
 ### Vanderbilt University
+
 * Degrees 
   * BS Engineering Science 
   * BS Communication of Science and Technology
@@ -18,13 +20,14 @@ Kyrillos Hanna prides himself on his multidisciplinary field of study which is p
 Kyrillos Hanna also holds minors in Engineering Management, Digital Fabrication, Physics, and Psycology.
 
 ## Work Experience 
-
 ### Program and Project Management Teaching Assistant
+
 Kyrillos held this position from August (2025) to December (2025). 
 * Vanderbilt School of Engineering (Nashville, TN)
   * Responsible for assisting students, grading papers, and providing students with feedback in pursuit of CAPM certification
  
 ### Project Management Engineer
+
 Kyrillos held this position from May (2025) to August (2025). 
 * House of Holcomb (White Creek, TN)
   * Collaborated on various tasks including the optimization of various system infrastructures and building spaces   

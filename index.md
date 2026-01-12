@@ -1,5 +1,5 @@
 ---
-title: "Example Web Page"
+title: "Welcome to Kyrillos Hanna’s Page"
 layout: splash
 header:
   overlay_color: "#000"
@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+excerpt: "Kyrillos Hanna is an engineering student at Vanderbilt University well-versed in his multidisciplinary studies. Kyrillos has a passion for positively impacting the lives of those around him through his experiences. His concentration is in socio-technical systems."
 feature_row:
   - image_path: assets/img/CNC-Mill-Thumbnail.jpg
     alt: "CNC Mill"

@@ -10,12 +10,13 @@ Kyrillos Hanna is driven by the idea of making his experiences better shape the 
 
 Kyrillos Hanna prides himself on his multidisciplinary field of study which is proving more invaluable than ever. His concentration is in socio-technical systems.
 
-Vanderbilt University
+### Vanderbilt University
 * Degrees 
   * BS Engineering Science 
   * BS Communication of Science and Technology
   * BS Medicine, Health, and Society
-* Minors: Engineering Management, Digital Fabrication, Physics, Psycology
+
+Kyrillos Hanna also holds minors in Engineering Management, Digital Fabrication, Physics, and Psycology.
 
 ## Work Experience 
 

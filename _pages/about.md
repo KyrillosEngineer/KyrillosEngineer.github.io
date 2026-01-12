@@ -10,7 +10,7 @@ Kyrillos Hanna prides himself on his multidisciplinary field of study which is p
 He is driven by the idea of making his experiences better shape the future experiences of others.
 His concentration is in socio-technical systems.
 
-### Vanderbilt University
+### Vanderbilt University, August 2022 - May 2026
 
 * Degrees 
   * BS Engineering Science 

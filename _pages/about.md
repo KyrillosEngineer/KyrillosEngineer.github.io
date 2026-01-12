@@ -3,7 +3,6 @@
 title: "About Kyrillos Hanna"
 
 ---
-
 Kyrillos Hanna is driven by the idea of making his experiences better shape the future experiences of others. 
 
 ## Education

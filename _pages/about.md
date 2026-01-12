@@ -1,31 +1,39 @@
 ---
 
-title: "About David Florian"
+title: "About Kyrillos Hanna"
 
 ---
 
+Kyrillos Hanna is driven by the idea of making his experiences better shape the future experiences of others. 
+
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Kyrillos Hanna prides himself on his multidisciplinary field of study which is proving more invaluable than ever. His concentration is in socio-technical systems.
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
-* Vanderbilt University
-  * PhD Biomedical Engineering
+* Vanderbilt University 
+  * BS Engineering Science 
+  * BS Communication of Science and Technology
+  * BS Medicine, Health, and Society
+ 
+  * Minors: Engineering Management, Digital Fabrication, Physics, Psycology
 
+## Work Experience 
+
+###Program and Project Management Teaching Assistant
+Kyrillos held this position from August (2025) to December (2025). 
+* Vanderbilt School of Engineering (Nashville, TN)
+  * Responsible for assisting students, grading papers, and providing students with feedback in pursuit of CAPM certification
+ 
+###Project Management Engineer
+Kyrillos held this position from May (2025) to August (2025). 
+* House of Holcomb (White Creek, TN)
+  * Collaborated on various tasks including the optimization of various system infrastructures and building spaces   
+ 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Kyrillos can operate various computer platforms for ideation and creation including AutoCAD, Fusion 360, MATLAB, and Java. He is also skilled in Google Docs, Google Slides, Google Sheets, Microsoft Word, Microsoft Powerpoint, and Microsoft Excel. 
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+## Awards, Publications, and Certifications  
 
-## Press 
+Kyrillos Hanna is currently working on acquiring his Lean Six Sigma, CAPM, and Scrum-master certifications by May of 2026.     
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
-
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>

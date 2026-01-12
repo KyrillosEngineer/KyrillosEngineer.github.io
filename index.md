@@ -10,17 +10,17 @@ header:
       url: "/portfolio/"
 excerpt: "Kyrillos Hanna is an engineering student at Vanderbilt University well-versed in his multidisciplinary studies. Kyrillos has a passion for positively impacting the lives of those around him through his experiences. His concentration is in socio-technical systems."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: assets/img/Screenshot 2026-01-12 at 2.42.00 PM.png
+    alt: "Custom DIY Syringe Pump"
+    title: "Cost-Effective Change"
+    excerpt: "Custom DIY Syringe Pump made with off-the-shelf parts"
+  - image_path: assets/img/Screenshot 2026-01-12 at 2.46.39 PM.png
+    alt: "Jugular Catheter Support Design"
+    title: "Collaborative Change"
+    excerpt: "Jugular Catheter Support Design made in collaboration with VUMC"
+  - image_path: assets/img/Screenshot 2026-01-12 at 2.51.43 PM.png
+    title: "Creative Change"
+    excerpt: "Custom Phone Case with unique coptic design"
 ---
 
 {% include feature_row %}

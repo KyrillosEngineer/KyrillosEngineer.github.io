@@ -106,7 +106,7 @@ author:
 
 
 # Site Footer
-footer: False
+footer: 
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

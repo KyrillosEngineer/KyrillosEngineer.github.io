@@ -40,6 +40,4 @@ Kyrillos can operate various computer platforms for ideation and creation includ
 
 Kyrillos Hanna is currently working on acquiring his Lean Six Sigma, CAPM, and Scrum-master certifications by May of 2026. 
 
-img src="assets/img/IMG_8580.jpg"
-
 

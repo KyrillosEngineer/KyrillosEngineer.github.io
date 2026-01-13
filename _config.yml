@@ -51,7 +51,7 @@ reCaptcha:
 
 atom_feed:
 hide                     : true
-path                   : # blank (default) uses feed.xml
+path                     : # blank (default) uses feed.xml
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)

@@ -8,7 +8,7 @@ gallery:
   - image_path: assets/img/7.jpg
   - image_path: assets/img/5.jpg
   - image_path: assets/img/6.jpg
-Rendering and real-life images of assembly iterations 
+
 ---
 # Descripti 
 
@@ -23,6 +23,5 @@ Rendering and real-life images of assembly iterations
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e9efbd94ab86a035?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 image: assets/img/Screenshot 2026-01-12 at 10.08.24 PM.png
-* Simplified Wire Drawing
 
 {% include gallery caption="Large Format 3D Printer Gallery" %}

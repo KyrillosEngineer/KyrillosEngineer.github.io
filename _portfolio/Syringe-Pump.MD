@@ -35,7 +35,7 @@ Syringe pumps are motor-driven devices used to deliver precise volumes of fluid 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e9efbd94ab86a035?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-The arduino code used for the syringe can be found here [Code] (CodeforSyringe). 
+The arduino code used for the syringe can be found here [Code](https://github.com/KyrillosEngineer/KyrillosEngineer.github.io/blob/main/CodeforSyringe). 
 
 
 {% include gallery caption="Rendering and real-life images of assembly iterations" %}

@@ -31,6 +31,47 @@ Syringe pumps are motor-driven devices used to deliver precise volumes of fluid 
 * To have the syringe pump run until completion or until being paused press the “Stop/Start” button. 
 * While the device is in motion to pause it press the “Stop/Start” button. 
 
+# Bill of Materials 
+
+| Off-the-shelf Components  | Count |
+| ------------- | ------------- |
+| M3x0.5 | 17  |
+| M3 Heat Inserts | 8  |
+| Arduino Uno  | 1  |
+| Breadboard  | 1  |
+| Mean Well RT-65D Power Supply  | 1 |
+| Limit Switch  | 1 |
+| 3-color RGB LED  | 1 |
+| Latching Button  | 1 |
+| NEMA-17 Motor  | 1 |
+| 8x8x250mm Lead Screw  | 1 |
+| 8x200mm Linear Rod  | 1 |
+| 5mm to 8mm Flexible Coupler  | 1 |
+| 8x8mm Brass Nut  | 1 |
+| 8mm Shaft Collar  | 4  |
+| V-Slot 20x40x350 Aluminum Extrusion  | 1 |
+| Flanged Ball Bearing  | 2  |
+| M3x 10   | 6  |
+| M5 Tee Nuts   | 6 |
+| M5 x 8 Bolts  | 6  |
+| M3x8 Thread forming screws  | 4  |
+| 8mm Linear Bearing  | 1  |
+| M4x0.7 Alloy Steel Cup-Point Set Screw  | 2  |
+| M3x0.5 Alloy Steel Socket Head Screw  | 2 |
+| Potentiometer  | 1 |
+| Momentary Button  | 1 |
+| Stepper Motor Driver Module  | 1 |
+
+
+| 3D Printed Components  | Count |
+| ------------- | ------------- |
+| Motor Mounting Plate  | 1  |
+| Housing (Box Pieces)   | 5  |
+| Carriage  | 1  |
+| Simple End Support  | 1  |
+| Syringe End Support  | 1  |
+
+
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e9efbd94ab86a035?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>

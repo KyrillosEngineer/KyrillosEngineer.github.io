@@ -10,13 +10,26 @@ gallery:
   - image_path: assets/img/6.jpg
 
 ---
-# Descripti 
+# Description (Purpose and Features)
 
-# Features
+Syringe pumps are motor-driven devices used to deliver precise volumes of fluid at a wide range of flow rates; for this reason, they are used in medical and laboratory settings. Syringe pumps operate simply in that a lead screw with a motor is turned which moves a carriage that pushes the syringe plunger forward and expels a controlled amount of liquid at a set pace. Unfortunately, commercial syringe pumps are often expensive, even for entry-level models, which limits their accessibility, particularly in low-resource or educational environments. To address this, a low-cost, open-source syringe pump built from 3D-printed components and Arduino-based controls is presented, with the goal of replicating the core functionality of these expensive commercial models while trying to make the device more accessible. 
 
-* **Massive Print Area: 1140 x 1200 x 1100 mm.** With a build envelop just shy of 4 feet in all dimensions, the LF3DP is capable of printing furniture and other large objects.
-* **High Volumetric Output Extruder: 1 kg/hr - 450 C.** This printer come standard with a MDPH2 extruder by Massive Dimension, which can extrude at a rate of 1 kg/hr. Unlike typical filament extruders, the MDPH2 uses a screw to convey and liquify plastic pellets before the molten material is pushed out of a large nozzle (1 to 5 mm extrusion diameter). Please note: This printer can also be configured for other high flow rate extruders, such as the Typhoon and Pulsar by Dyze Design.
-* **Affordable Pellet Feedstock** Pellets are the cheapest form of feedstock for any plastic-based manufacturing process. Save 50-75% of material costs by using pellets instead of spools of filament. Concentrated colorant can be added to the virgin material to achieve any color in the rainbow without requiring large amounts of storage. Recyled material can also be used for sustainable material printing.
+
+* **Mechanical operation of the syringe pump - The syringe pump works by using a lead screw driven by a stepper motor. The plunger is moved forward or backward by a carriage that rides on a smooth rod using linear bearings. 
+* **Multi-syringe compatibility -  The design of the syringe pump allows for multiple syringe diameters by making the slots on both the carriage and the end support able to hold and support either syringe size. This allows for the general design of the syringe pump to work well for both, as only the code needs to know what diameter syringe is being used. The model itself can easily hold either size while still allowing for regular output (no vibrations or looseness). 
+* **Button, switch, and LED functionality - The syringe pump uses a simple control system with a latching button, two momentary buttons, a limit switch, and a tri-color LED. The latching button toggles the pump between running and paused states. While paused, the momentary buttons let the user move the plunger forward or backward for adjustments or priming. A limit switch at the end of the plunger’s travel detects when the syringe is empty and stops the motor to prevent overextension. The tri-color LED indicates system status: green for running, yellow for paused, and red for empty. This interface provides clear feedback and allows for reliable operation.
+* **Electronics protection - The enclosure was designed to protect the Arduino, motor driver, and other wiring and electrical components from damage and liquid exposure. It uses a thick casing that can keep moisture and liquid out of the main body where the electrical components are, even in the case of accidental splashes. All the electronics are positioned beneath the main body of the syringe pump, so no live parts are accessible during regular use. Heat shrink tubing was used to cover any exposed wires and solder joints, which provides insulation and helps prevent any short circuits that could be caused by condensation, liquid splashes, or any other accidental contact. This design makes the device safer and should increase its lifespan without replacing any of the parts.
+* **Stepper motor microstepping - The syringe pump utilizes a stepper motor controlled with 1/16 step microstepping which allows for both smooth and precise motion of the carriage and therefore the syringe plunger. Since each step has been divided into sixteenths, finer control over the movement is provided, and significantly reduces vibration and noise during the operation of the pump. This enhanced resolution is especially beneficial for accurate fluid delivery, which is amplified at the low flow rate seen in the pump. Although microstepping can slightly reduce torque, this is not an issue for this project. This configuration ensures reliable performance without excess vibrations.
+* **Programming approach - The syringe pump is programmed using an Arduino Uno and the AccelStepper library to control a stepper motor via a driver. The core logic of the system centers around converting a user-defined flow rate (in mL/min) into a corresponding motor step rate (in steps/sec), which allows for the motor to move at the correct speed to get the requested flow rate. 
+
+# Operating Instructions
+* **Select the syringe with the desired diameter and place it in the carriage. Align it in the proper position. 
+* **Input the syringe used, the total volume of liquid to be dispensed, and the desired flow rate into the program.  
+* **Plug in the power supply to power the Arduino, stepper motor driver, and stepper motor.  
+* **On the pump the user is then able to press three selections: “Stop/Start”, “Forward”, and “Reverse”. 
+* **The “Forward” and “Reverse” buttons can be used when the device is paused and the yellow LED is lit. While either button is being held down, the carriage will move in the button’s respective directions. 
+* **To have the syringe pump run until completion or until being paused press the “Stop/Start” button. 
+* **While the device is in motion to pause it press the “Stop/Start” button. 
 
 
 # CAD Model

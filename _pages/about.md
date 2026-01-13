@@ -42,3 +42,4 @@ Kyrillos Hanna is currently working on acquiring his Lean Six Sigma, CAPM, and S
 
 img src="assets/img/IMG_8580.jpg" alt="Kyrillos Hanna" style="width:200px;"/>
 
+

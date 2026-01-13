@@ -108,7 +108,9 @@ author:
 # Site Footer
 footer: 
   links:
-    - label: []
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://kyrillosengineer.github.io/"
 
 
 

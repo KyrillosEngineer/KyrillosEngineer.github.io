@@ -23,5 +23,4 @@ feature_row:
     excerpt: "Custom Phone Case with unique coptic design"
 ---
 
-{% include feature_row %}
 

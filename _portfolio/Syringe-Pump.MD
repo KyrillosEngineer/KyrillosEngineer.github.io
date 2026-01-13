@@ -5,10 +5,10 @@ header:
   image: assets/img/1.jpg
   teaser: assets/img/SyringeCoverPhoto.jpg
 gallery:
-  - image_path: assets/img/Screenshot 2026-01-12 at 10.08.24 PM.png
-  - image_path: assets/img/Screenshot 2026-01-12 at 10.09.03 PM.png
-  - image_path: assets/img/Screenshot 2026-01-12 at 10.09.36 PM.png
-   
+  - image_path: assets/img/7.jpg
+  - image_path: assets/img/5.jpg
+  - image_path: assets/img/6.jpg
+   * Rendering and real-life images of assembly iterations 
 ---
 # Descripti 
 
@@ -18,7 +18,11 @@ gallery:
 * **High Volumetric Output Extruder: 1 kg/hr - 450 C.** This printer come standard with a MDPH2 extruder by Massive Dimension, which can extrude at a rate of 1 kg/hr. Unlike typical filament extruders, the MDPH2 uses a screw to convey and liquify plastic pellets before the molten material is pushed out of a large nozzle (1 to 5 mm extrusion diameter). Please note: This printer can also be configured for other high flow rate extruders, such as the Typhoon and Pulsar by Dyze Design.
 * **Affordable Pellet Feedstock** Pellets are the cheapest form of feedstock for any plastic-based manufacturing process. Save 50-75% of material costs by using pellets instead of spools of filament. Concentrated colorant can be added to the virgin material to achieve any color in the rainbow without requiring large amounts of storage. Recyled material can also be used for sustainable material printing.
 
+
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e9efbd94ab86a035?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+image: assets/img/Screenshot 2026-01-12 at 10.08.24 PM.png
+* Simplified Wire Drawing
 
 {% include gallery caption="Large Format 3D Printer Gallery" %}

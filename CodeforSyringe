@@ -1,0 +1,97 @@
+#include <AccelStepper.h>
+
+
+// Defining stepper motor pins
+AccelStepper stepperX(AccelStepper::DRIVER, 3, 2);
+
+
+// Define button pins
+const int buttonPowerPin = 4;
+const int limitSwitchPin = 5;
+const int buttonForwardPin = 6;
+const int buttonBackwardPin = 7;
+
+
+// RGB LED Pins
+const int redPin = 9;
+const int greenPin = 10;
+
+
+// Variables for button state
+bool powerOn = false;
+bool lastButtonState = HIGH;
+bool currentButtonState = HIGH;
+bool limitSwitchState = false;
+bool forwardButtonState = false;
+bool backwardButtonState = false;
+
+
+// Variables for StepsPerSecond Equation
+double flowRate = 1.0;
+double diameter = 19.27; 
+double stepsPerSecond = (flowRate / 60.0) * 1000.0 / (PI * pow(diameter / 2.0, 2)) * 0.5 * 200 * 16;
+
+
+void setup() {
+  pinMode(buttonPowerPin, INPUT_PULLUP);
+  pinMode(limitSwitchPin, INPUT_PULLUP);
+  pinMode(buttonForwardPin, INPUT_PULLUP);
+  pinMode(buttonBackwardPin, INPUT_PULLUP);
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+
+  stepperX.setMaxSpeed(1000);
+  stepperX.setSpeed(stepsPerSecond);
+
+  setRGB(255, 125);
+}
+
+
+void loop() {
+  currentButtonState = digitalRead(buttonPowerPin);
+  limitSwitchState = digitalRead(limitSwitchPin);
+  forwardButtonState = digitalRead(buttonForwardPin);
+  backwardButtonState = digitalRead(buttonBackwardPin);
+
+
+  if (currentButtonState == LOW && lastButtonState == HIGH) {
+    powerOn = !powerOn;
+    delay(250);
+  }
+
+
+  lastButtonState = currentButtonState;
+
+
+  if (limitSwitchState == HIGH) {
+    setRGB(255, 0);
+    stepperX.setSpeed(0);
+  }
+  else if (powerOn) {
+    setRGB(0, 255);
+    stepperX.setSpeed(stepsPerSecond);
+    stepperX.runSpeed();
+  }
+  else {
+    if (forwardButtonState == LOW) {
+      setRGB(255, 125);
+      stepperX.setSpeed(100);
+    }
+    else if (backwardButtonState == LOW) {
+      setRGB(255, 125);
+      stepperX.setSpeed(-100);
+    }
+    else {
+      setRGB(255, 125);
+      stepperX.setSpeed(0);
+    }
+  }
+
+  stepperX.runSpeed();
+}
+
+
+void setRGB(int red, int green) {
+  analogWrite(redPin, red);
+  analogWrite(greenPin, green);
+}

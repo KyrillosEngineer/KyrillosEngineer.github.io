@@ -8,7 +8,7 @@ gallery:
   - image_path: assets/img/7.jpg
   - image_path: assets/img/5.jpg
   - image_path: assets/img/6.jpg
-   * Rendering and real-life images of assembly iterations 
+Rendering and real-life images of assembly iterations 
 ---
 # Descripti 
 

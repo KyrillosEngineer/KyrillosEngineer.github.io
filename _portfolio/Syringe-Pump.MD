@@ -2,7 +2,7 @@
 title: "Custom DIY Syringe Pump"
 excerpt: "A DIY Syringe Pump capable of 0.1 mL/min flow rate up to 5.0 mL/min flow rate."
 header:
-  image: assets/img/SyringeCoverPhoto.jpg
+  image: assets/img/1.jpg
   teaser: assets/img/SyringeCoverPhoto.jpg
 gallery:
   - image_path: assets/img/Slide-3.png

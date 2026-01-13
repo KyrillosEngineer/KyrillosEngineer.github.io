@@ -5,9 +5,9 @@ header:
   image: assets/img/1.jpg
   teaser: assets/img/SyringeCoverPhoto.jpg
 gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
+  - image_path: assets/img/Screenshot 2026-01-12 at 10.08.24 PM.png
+  - image_path: assets/img/Screenshot 2026-01-12 at 10.09.03 PM.png
+  - image_path: assets/img/Screenshot 2026-01-12 at 10.09.36 PM.png
    
 ---
 # Descripti 

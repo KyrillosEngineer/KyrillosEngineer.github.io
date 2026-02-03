@@ -10,9 +10,21 @@ gallery:
   - image_path: assets/img/6.jpg
 
 ---
-# Description (Background)
+# Description (background)
+
+Syringe pumps are m
+
+* The syringe pump works by using a lead screw driven by a stepper motor. 
+* The
 
 # Design and 3D Printing
+
+# Printing Settings 
+
+| Off-the-shelf Components  | Count |
+| ------------- | ------------- |
+| M3x0.5 | 17  |
+| M3 Heat Inserts | 8  |
 
 # Cad Model
 

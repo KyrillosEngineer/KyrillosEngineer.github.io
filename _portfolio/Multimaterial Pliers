@@ -18,3 +18,6 @@ Syringe pumps are motor-driven devices used to deliver precise volumes of fluid 
 # Design and 3D Printing
 
 Syringe pumps are motor-driven devices used to deliver precise volumes of fluid at a wide range of flow rates; for this reason, they are used in medical and laboratory settings. Syringe pumps operate simply in that a lead screw with a motor is turned which moves a carriage that pushes the syringe plunger forward and expels a controlled amount of liquid at a set pace. Unfortunately, commercial syringe pumps are often expensive, even for entry-level models, which limits their accessibility, particularly in low-resource or educational environments. To address this, a low-cost, open-source syringe pump built from 3D-printed components and Arduino-based controls is presented, with the goal of replicating the core functionality of these expensive commercial models while trying to make the device more accessible. 
+
+#Cad Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811c1b3e412b5dbcaa1?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>

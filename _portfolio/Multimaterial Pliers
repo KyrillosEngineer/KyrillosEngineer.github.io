@@ -23,12 +23,39 @@ In this case, the goal was thus to make a functional set of pliers in one print 
 
 # Design and 3D Printing
 
-# Printing Settings 
+An iterative design approach was taken for this project. The design consisted of three parts: the jaws, the handles, and the center piece. The following design, being multimaterial, was created with PLA and TPU.The center “spring component”, which is essential for the movement of the pliers, was made with TPU due its high elasticity and high durability. The “jaws” and “handles” of the pliers, which are essential for usability of the pliers as the jaws are intended to grab on the resistor through the user controlling and squeezing the handles, were made out of PLA to ensure the rigid structure. 
 
-| Off-the-shelf Components  | Count |
+The center “spring component” took multiple attempts to design given this was my initial experience using the pattern feature on fusion.The center “spring component” had to be perfectly shaped to be contained inside the matching triangular pockets of the jaws and handles for adherence. Likewise, the center “spring component” required a certain print setting. For example, the layers of solid material were reduced to 0, the perimeters were increased (to 6), and the infill was changed to rectilinear with a sparse of 18%. The rectilinear orientation is essential as it creates the one direction movement; this paired with the elasticity of TPU makes it possible to move the jaws by squeezing the handles. 
+
+The following design was inspired by the various examples of pliers presented in class. As noted in class, the in-pocket triangular casings are rooted by traditional Japanese design. The in-pocket triangular casing allows the different materials to connect sound and tight. 
+
+# Relavent Specifications 
+
+The jaw length is 9.5 cm. The tips of the jaw to grab the resistor is 10.5 cm long. The jaw capacity is _______. 
+
+As seen, the pliers flex appropriately and successfully are able to move one resistor at minimum.
+
+This project is a clear presentation of the power behind multimaterial printing. Printing in one material, whether TPU or PLA in this situation, would not have resulted in the same functionality necessary in terms of maintaining the appropriate elasticity and rigidness in the necessary areas. Likewise, it is a recap of print-in-place models being multiple component designs taht are functional after print. 
+
+# Adjusted Printing Settings 
+
+| Jaw and Handle Component Setting  | Adjustment |
 | ------------- | ------------- |
-| M3x0.5 | 17  |
-| M3 Heat Inserts | 8  |
+| Geometry | JuxtaPosition  |
+| Material | PLA  |
+| Solid Layers Top | 4  |
+| Solid Layers Bottom | 3  |
+
+| Center Component Setting  | Adjustment |
+| ------------- | ------------- |
+| Geometry | Rectalinear  |
+| Sparse | 18%  |
+| Fill Angle | 90 degrees  |
+| Material | TPU  |
+| Solid Layers Top | 0  |
+| Solid Layers Bottom | 0  |
+| Perimeter Contor | 6  |
+
 
 # Cad Model
 

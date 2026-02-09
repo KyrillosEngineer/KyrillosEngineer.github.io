@@ -30,9 +30,8 @@ An iterative design approach was taken for this project. The center “spring co
 
 The following design was inspired by the various examples of pliers presented in class. As noted in class, the in-pocket triangular casings are rooted by traditional Japanese design. The in-pocket triangular casing allows the different materials to connect sound and tightness. 
 
-gallery:
-  - image_path: assets/img/IMG_8900.HEIC
-  - image_path: assets/img/IMG_8901.HEIC
+image_path: assets/img/IMG_8900.HEIC
+image_path: assets/img/IMG_8901.HEIC
 
 # Relavent Specifications 
 

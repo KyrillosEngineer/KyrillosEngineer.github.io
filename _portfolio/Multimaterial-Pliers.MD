@@ -2,12 +2,12 @@
 title: "Custom Multimaterial Pliers"
 excerpt: "The model is able to pick and place resistors."
 header:
-  image: assets/img/1.jpg
-  teaser: assets/img/SyringeCoverPhoto.jpg
+  image: assets/img/IMG_8871.HEIC
+  teaser: assets/img/IMG_8872.HEIC
 gallery:
-  - image_path: assets/img/7.jpg
-  - image_path: assets/img/5.jpg
-  - image_path: assets/img/6.jpg
+  - image_path: assets/img/IMG_8873.HEIC
+  - image_path: assets/img/IMG_8871.HEIC
+  - image_path: assets/img/IMG_8872.HEIC
 
 ---
 # Description (background)
@@ -29,6 +29,10 @@ The design consisted of three parts: the jaws, the handles, and the center piece
 An iterative design approach was taken for this project. The center “spring component” took multiple attempts to design given this was my initial experience using the pattern feature on fusion.The center “spring component” had to be perfectly shaped to be contained inside the matching triangular pockets of the jaws and handles for adherence. Likewise, the center “spring component” required a certain print setting. For example, the layers of solid material were reduced to 0, the perimeters were increased (to 6), and the infill was changed to rectilinear with a sparse of 18%. The rectilinear orientation is essential as it creates the one direction movement; this paired with the elasticity of TPU makes it possible to move the jaws by squeezing the handles. Initially when printing the center “spring component” because the “teeth” of the design (for the locking mechanism) were not initially joined, the printer did not recognize the “teeth” as one design with the center and thus the teeth printed separately as apparent below. It is worth mentioning also 0.1mm overlap was added when printing this center “spring component” to ensure a tight fit. 
 
 The following design was inspired by the various examples of pliers presented in class. As noted in class, the in-pocket triangular casings are rooted by traditional Japanese design. The in-pocket triangular casing allows the different materials to connect sound and tightness. 
+
+gallery:
+  - image_path: assets/img/IMG_8900.HEIC
+  - image_path: assets/img/IMG_8901.HEIC
 
 # Relavent Specifications 
 

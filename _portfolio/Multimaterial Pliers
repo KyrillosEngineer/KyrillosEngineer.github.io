@@ -10,7 +10,7 @@ gallery:
   - image_path: assets/img/6.jpg
 
 ---
- # Description (background)
+## Description (background)
 
 The purpose of this project was to create pliers with different materials to practice print-in-place parts. In order to measure the efficacy of design, the pliers were tested to carry at minimum one resistor.
 

@@ -2,12 +2,12 @@
 title: "Custom Multimaterial Pliers"
 excerpt: "These custom multimaterial pliers are able to successfully pick and place at least one resistor."
 header:
-  image: assets/img/IMG_8871.HEIC
-  teaser: assets/img/IMG_8872.HEIC
+  image: assets/img/IMG_8871.jpeg
+  teaser: assets/img/IMG_8872.jpeg
 gallery:
-  - image_path: assets/img/IMG_8873.HEIC
-  - image_path: assets/img/IMG_8871.HEIC
-  - image_path: assets/img/IMG_8872.HEIC
+  - image_path: assets/img/IMG_8870.jpeg
+  - image_path: assets/img/IMG_8873.jpeg
+  - image_path: assets/img/IMG_8872.jpeg
 
 ---
 # Description (background)
@@ -30,8 +30,8 @@ An iterative design approach was taken for this project. The center “spring co
 
 The following design was inspired by the various examples of pliers presented in class. As noted in class, the in-pocket triangular casings are rooted by traditional Japanese design. The in-pocket triangular casing allows the different materials to connect sound and tightness. 
 
-![iteration](assets/img/IMG_8900.HEIC)
-![iteration](assets/img/IMG_8901.HEIC)
+![iteration](assets/img/IMG_8900.jpeg)
+![iteration](assets/img/IMG_8901.jpeg)
 
 # Relavent Specifications 
 

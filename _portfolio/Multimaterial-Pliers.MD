@@ -5,7 +5,7 @@ header:
   image: assets/img/IMG_8871.jpeg
   teaser: assets/img/IMG_8872.jpeg
 gallery:
-  - image: assets/img/IMG_8870.jpeg
+  - image_path: assets/img/IMG_8870.jpeg
   - image_path: assets/img/IMG_8873.jpeg
   - image_path: assets/img/IMG_8872.jpeg
 
@@ -60,3 +60,4 @@ As seen, the pliers flex appropriately and successfully are able to move one res
 | Bottom Solid Layers | 0  |
 | Perimeter Contor | 6  |
 
+{% include gallery caption="Rendering and real-life images of custom multimaterial pliers" %}

@@ -38,7 +38,7 @@ The following design was inspired by the various examples of pliers presented in
 The jaw length is 95 mm. The tips of the jaw to grab the resistor is 10.5 mm long. The jaw capacity is 9.25mm. 
 
 ![Gif of Pliers Working](assets/img/Adobe Express - IMG_8869-2.gif)
-
+The following gif shows these custom multimaterial pliers are able to successfully pick and place at least one resistor.
 As seen, the pliers flex appropriately and successfully are able to move one resistor at minimum.
 
 # Adjusted Printing Settings 

@@ -1,6 +1,6 @@
 ---
 title: "Custom Multimaterial Pliers"
-excerpt: "The model is able to pick and place resistors."
+excerpt: "These custom multimaterial pliers are able to successfully pick and place at least one resistor."
 header:
   image: assets/img/IMG_8871.HEIC
   teaser: assets/img/IMG_8872.HEIC

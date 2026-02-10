@@ -30,14 +30,14 @@ An iterative design approach was taken for this project. The center “spring co
 
 The following design was inspired by the various examples of pliers presented in class. As noted in class, the in-pocket triangular casings are rooted by traditional Japanese design. The in-pocket triangular casing allows the different materials to connect sound and tightness. 
 
-![iteration](assets/img/IMG_8900.jpeg)
-![iteration](assets/img/IMG_8901.jpeg)
+![iteration](/assets/img/IMG_8900.jpeg)
+![iteration](/assets/img/IMG_8901.jpeg)
 
 # Relavent Specifications 
 
 The jaw length is 95 mm. The tips of the jaw to grab the resistor is 10.5 mm long. The jaw capacity is 9.25mm. 
 
-![Gif of Pliers Working](assets/img/Adobe Express - IMG_8869-2.gif)
+![Gif of Pliers Working](/assets/img/Adobe Express - IMG_8869-2.gif)
 The following gif shows these custom multimaterial pliers are able to successfully pick and place at least one resistor.
 As seen, the pliers flex appropriately and successfully are able to move one resistor at minimum.
 

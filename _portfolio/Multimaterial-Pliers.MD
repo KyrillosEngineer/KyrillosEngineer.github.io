@@ -35,7 +35,7 @@ The following design was inspired by the various examples of pliers presented in
 
 # Relavent Specifications 
 
-The jaw length is 95 mm. The tips of the jaw to grab the resistor is 10.5 mm long. The jaw capacity is 9.25mm. 
+The jaw length is 95 mm. The tips of the jaw to grab the resistor is 10.5 mm long. The jaw capacity is 9.25 mm. 
 
 ![Gif of Pliers Working](/assets/img/Adobe Express - IMG_8869-2.gif)
 

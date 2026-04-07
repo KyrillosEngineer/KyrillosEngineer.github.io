@@ -14,7 +14,7 @@ gallery:
 
 Pinch flow fractionation (PFF), at a very simple level, is a method of separating small particles. This passive method of flow first appeared in a 2004 paper [1](https://pubs.acs.org/doi/10.1021/ac049863r); continuous flow and separation of particles in PFF is reliant on geometry as narrow channels “pinch” particles in a predictable streamline that can be mathematically demonstrated. In PFF, particles are made to collide being pushed to the uppermost channel. This is done in order to sort the particles into different outlets; particles spread according to the streamline with smaller particles rising to the upper most channel. According to PFF, particle flow can be predicted using channel width and particle diameter as a particle’s center of mass is crucial for its movement. Changing flow rates are also impactful. The following equation (where y axis position of the particle is equal to the width of the pinched region minus half the diameter of the particle times the width of the broad region over the the width of the pinched region) is extremely useful for determining flow. 
 
-![equ](assets/img/PFF EQUATION.jpg)
+![equ](https://github.com/KyrillosEngineer/KyrillosEngineer.github.io/blob/c81acacc1e1b61d3b1834e432f9b4541b84b29b9/assets/img/PFF%20EQUATION.jpg)
 
 There are many applications that require the sorting of particles [2](https://www.sciencedirect.com/science/article/abs/pii/S0255270124004252). Specific applications of particle separation include sorting white and red cells, cancerous cells, or exosomes. Compared to traditional methods of separation, PFF provides a mathematical framework that allows for precise control. With reliance on geometry, there is no physical sieving and thus the method is continuous and less prone to clogging. 
 
@@ -26,18 +26,18 @@ Following the ideas in the original PFF paper, this design followed a symmetric 
 
 Outlet boundaries were placed under these assumptions as well as the functional requirements noted in the assignment with small particles being 125-150 micrometers and the large particles being 425-500 micrometers with the device contained in 50x70 mm space. The smallest channel should be 1.2-1.5 times the diameter of the largest particle. The broad section must be at least 15 mm. Inlets or outlets must be at least 11 mm apart from each other. Channels must be 3 mm away from the edge. There must be a 4:1 aspect ratio. With these specifications, the y axis location of the large particles was determined to be from 9750-10962.5 and the y axis location of the small particles was determined to be from 13425-13812.5. With this, it was very evident the smallest particle outlet was at the very top, with the large below, and the buffer at the bottom. Following the idea of center of mass mentioned, outlet boundaries were placed in between these vertical positions to account for possible paths.The following is a depiction of some of my calculations as well as critical dimensions of channels determined. The following was then applied to CAD. 
 
-![calc](assets/img/PFF CALC.jpg)
-![cadpath](assets/img/PATH IN CAD PFF.jpg)
+![calc](https://github.com/KyrillosEngineer/KyrillosEngineer.github.io/blob/c81acacc1e1b61d3b1834e432f9b4541b84b29b9/assets/img/PFF%20CALC.jpg)
+![cadpath](https://github.com/KyrillosEngineer/KyrillosEngineer.github.io/blob/c81acacc1e1b61d3b1834e432f9b4541b84b29b9/assets/img/PATH%20IN%20CAD%20PFF.jpg)
 
 Possible balance issues were addressed by following in line with previous attempts. The main issues regarding balance involve the flow of the buffer. In order to shift this flow and prevent any particle redistribution as a result, on-flow chip resistance was added by altering the lengths of the channels and thereby increasing their hydraulic resistance. As noted, keeping the buffer outlet the shortest length allows it to have the least resistance and the largest fraction of flow. The particle outlets were hence made longer. This idea seemed in line with previous literature and attempts as well as the fluids resistance equations [3](https://pmc.ncbi.nlm.nih.gov/articles/PMC9118023/).  It is worth mentioning the outlets nonetheless had to remain equidistant from each other vertically. In hindsight, looking at the design, there are sharp edges that should be smoothened as these could have factored into particle deviation. Likewise, the smallest path could have been altered by being slightly wider as evident by the testing results later mentioned. All of this could point to the need for a more quantitative approach to approaching resistance needed. 
 
-![setup](assets/img/IMG_9434.jpeg)
+![setup](https://github.com/KyrillosEngineer/KyrillosEngineer.github.io/blob/c81acacc1e1b61d3b1834e432f9b4541b84b29b9/assets/img/IMG_9434.jpeg)
 
 # Instructions  
 
 Very simply, following a final CAD design, the device was printed with clear resin for visibility purposes and a slightly larger height for accuracy purposes. As with resin prints, it was washed for five minutes on the buildplate then again for five minutes detached from the plate. The device was then left to dry until all IPA was dried off. Any debris was blown off using compressed air. A one minute surface cure was performed with the supports on; the supports were removed following this. Note safety attire and measures were taken. Likewise, note, the inside of the uncured mold was not to be touched under any circumstance. From this, the mold was cased out and treated with plasma to produce the mold used for testing. 
 
-![plasma](assets/img/Plasma-Treating-Image.jpg)
+![plasma](https://github.com/KyrillosEngineer/KyrillosEngineer.github.io/blob/c81acacc1e1b61d3b1834e432f9b4541b84b29b9/assets/img/Plasma-Treating-Image.jpg)
 
 # Discussion 
 

@@ -2,12 +2,12 @@
 title: "Pinch Flow Fractionation (PFF) Device"
 excerpt: "50x70 mm device for sorting particles between 125-150 micrometers and 425-500 micrometers."
 header:
-  image: assets/img/IMG_8871.jpeg
-  teaser: assets/img/IMG_8872.jpeg
+  image: assets/img/IMG_9438.jpeg
+  teaser: assets/img/IMG_9436.jpeg
 gallery:
-  - image_path: assets/img/IMG_8870.jpeg
-  - image_path: assets/img/IMG_8873.jpeg
-  - image_path: assets/img/IMG_8872.jpeg
+  - image_path: assets/img/IMG_9360.jpeg
+  - image_path: assets/img/IMG_9363.jpeg
+  - image_path: assets/img/IMG_9365.jpeg
 
 ---
 # Description (Introduction)
@@ -31,6 +31,8 @@ Outlet boundaries were placed under these assumptions as well as the functional 
 
 Possible balance issues were addressed by following in line with previous attempts. The main issues regarding balance involve the flow of the buffer. In order to shift this flow and prevent any particle redistribution as a result, on-flow chip resistance was added by altering the lengths of the channels and thereby increasing their hydraulic resistance. As noted, keeping the buffer outlet the shortest length allows it to have the least resistance and the largest fraction of flow. The particle outlets were hence made longer. This idea seemed in line with previous literature and attempts as well as the fluids resistance equations [3](https://pmc.ncbi.nlm.nih.gov/articles/PMC9118023/).  It is worth mentioning the outlets nonetheless had to remain equidistant from each other vertically. In hindsight, looking at the design, there are sharp edges that should be smoothened as these could have factored into particle deviation. Likewise, the smallest path could have been altered by being slightly wider as evident by the testing results later mentioned. All of this could point to the need for a more quantitative approach to approaching resistance needed. 
 
+![setup](assets/img/IMG_9434.jpeg)
+
 # Instructions  
 
 Very simply, following a final CAD design, the device was printed with clear resin for visibility purposes and a slightly larger height for accuracy purposes. As with resin prints, it was washed for five minutes on the buildplate then again for five minutes detached from the plate. The device was then left to dry until all IPA was dried off. Any debris was blown off using compressed air. A one minute surface cure was performed with the supports on; the supports were removed following this. Note safety attire and measures were taken. Likewise, note, the inside of the uncured mold was not to be touched under any circumstance. From this, the mold was cased out and treated with plasma to produce the mold used for testing. 
@@ -42,6 +44,8 @@ Very simply, following a final CAD design, the device was printed with clear res
 
 Resin printing was the preferred method of manufacturing given the ability to quickly print smooth, highly detailed parts. This was essential for the very small channels that required high resolution for printing. Likewise, multiple parts could be printed at once. If necessary, the design could be scaled up to account for different particles following the same processes above; increased pinch width, length, and outlet locations could be recalculated to fit a wider range of particle size. In general, as noted, printer specifications such as 85 μm minimum feature size limit the lower limit particle size that can be separated. 
 
+![setup](assets/img/IMG_9435.jpeg)
+
 As evident by the testing of this design [4](https://canva.link/8s7u201cit3v9d0), there were times of success by which the particles did separate but improvements do need to be made as it was evident any level of success was not comprehensive. Note, initial errors in calculations resulted in an influx of particles initially in the video but with correction this was later stabilized. Nonetheless, as a result, at a certain point, particles clogged the upper most tube because of early influx. This also resulted in air bubbles but these were later cleared as evident. Given the pattern of separation that occurred, as mentioned previously, exploring a more concrete and precise means of calculating resistance is necessary. It is possible errors were possible through casting since the device is so small. In regards to the testing set up in general, as noted by Dr. Florian, a stand to angle the syringe pumps and rigid tubing could alleviate some difficulties and be possible improvements. Possible improvements in the future could also include built in design separators as one student successfully did.  
 
-{% include gallery caption="Rendering and real-life images of custom multimaterial pliers" %}
+{% include gallery caption="Real-life images of PFF Device and Testing" %}

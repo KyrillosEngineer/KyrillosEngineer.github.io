@@ -38,7 +38,6 @@ Possible balance issues were addressed by following in line with previous attemp
 Very simply, following a final CAD design, the device was printed with clear resin for visibility purposes and a slightly larger height for accuracy purposes. As with resin prints, it was washed for five minutes on the buildplate then again for five minutes detached from the plate. The device was then left to dry until all IPA was dried off. Any debris was blown off using compressed air. A one minute surface cure was performed with the supports on; the supports were removed following this. Note safety attire and measures were taken. Likewise, note, the inside of the uncured mold was not to be touched under any circumstance. From this, the mold was cased out and treated with plasma to produce the mold used for testing. 
 
 ![plasma](assets/img/Plasma-Treating-Image.jpg)
-![Gif of Pliers Working](/assets/img/Adobe Express - IMG_8869-2.gif)
 
 # Discussion 
 
@@ -47,5 +46,7 @@ Resin printing was the preferred method of manufacturing given the ability to qu
 ![setup](assets/img/IMG_9435.jpeg)
 
 As evident by the testing of this design [4](https://canva.link/8s7u201cit3v9d0), there were times of success by which the particles did separate but improvements do need to be made as it was evident any level of success was not comprehensive. Note, initial errors in calculations resulted in an influx of particles initially in the video but with correction this was later stabilized. Nonetheless, as a result, at a certain point, particles clogged the upper most tube because of early influx. This also resulted in air bubbles but these were later cleared as evident. Given the pattern of separation that occurred, as mentioned previously, exploring a more concrete and precise means of calculating resistance is necessary. It is possible errors were possible through casting since the device is so small. In regards to the testing set up in general, as noted by Dr. Florian, a stand to angle the syringe pumps and rigid tubing could alleviate some difficulties and be possible improvements. Possible improvements in the future could also include built in design separators as one student successfully did.  
+
+Arduino code was used to operate the syringes: [Code](Code for PFF). 
 
 {% include gallery caption="Real-life images of PFF Device and Testing" %}

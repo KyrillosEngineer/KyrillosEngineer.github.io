@@ -47,6 +47,6 @@ Resin printing was the preferred method of manufacturing given the ability to qu
 
 As evident by the testing of this design [4](https://canva.link/8s7u201cit3v9d0), there were times of success by which the particles did separate but improvements do need to be made as it was evident any level of success was not comprehensive. Note, initial errors in calculations resulted in an influx of particles initially in the video but with correction this was later stabilized. Nonetheless, as a result, at a certain point, particles clogged the upper most tube because of early influx. This also resulted in air bubbles but these were later cleared as evident. Given the pattern of separation that occurred, as mentioned previously, exploring a more concrete and precise means of calculating resistance is necessary. It is possible errors were possible through casting since the device is so small. In regards to the testing set up in general, as noted by Dr. Florian, a stand to angle the syringe pumps and rigid tubing could alleviate some difficulties and be possible improvements. Possible improvements in the future could also include built in design separators as one student successfully did.  
 
-Arduino code was used to operate the syringes: [Code](Code for PFF). 
+Arduino code was used to operate the syringes: [Code](https://github.com/KyrillosEngineer/KyrillosEngineer.github.io/blob/56cf64764aec50729a4cf1f6b51db21ba89d6006/Code%20for%20PFF). 
 
 {% include gallery caption="Real-life images of PFF Device and Testing" %}

@@ -1,0 +1,63 @@
+#include <AccelStepper.h>
+
+// ============================================================
+// USER SETTINGS — adjust these values as needed
+// ============================================================
+const float FLOW_RATE_1_ML_PER_MIN = 1.7025;  // <-- Motor 1 flow rate (mL/min)
+const float FLOW_RATE_2_ML_PER_MIN = 0.5525;  // <-- Motor 2 flow rate (mL/min)
+const float FLOW_RATE_3_ML_PER_MIN = 0.2425;  // <-- Motor 3 flow rate (mL/min)
+
+const char DIRECTION = 'r';  // <-- SET DIRECTION: 'f' = forward, 'r' = reverse
+// ============================================================
+
+// Syringe & leadscrew constants
+const float LEAD_MM_PER_REV  = 2.0;   // mm of linear travel per motor revolution
+const float SYRINGE_DIAMETER_MM = 29.10; // inner diameter of syringe in mm
+
+// Derived: volume displaced per revolution
+// Area of syringe (mm²) = pi * (diameter/2)²
+// Volume per rev (mm³)  = area * lead
+// Convert mm³ to mL    = divide by 1000
+const float SYRINGE_AREA_MM2  = PI * (SYRINGE_DIAMETER_MM / 2.0) * (SYRINGE_DIAMETER_MM / 2.0);
+const float ML_PER_REV        = (SYRINGE_AREA_MM2 * LEAD_MM_PER_REV) / 1000.0;
+
+const int MICROSTEPS_PER_REV  = 3200;  // steps/rev with 1/16 microstepping
+
+// DIR pins: 2, 4, 6 — STEP pins: 3, 5, 7
+// AccelStepper::DRIVER takes (STEP, DIR)
+AccelStepper stepper1(AccelStepper::DRIVER, 3, 2);
+AccelStepper stepper2(AccelStepper::DRIVER, 5, 4);
+AccelStepper stepper3(AccelStepper::DRIVER, 7, 6);
+
+float calcSpeed(float flowRate) {
+  float revsPerMin  = flowRate / ML_PER_REV;
+  float revsPerSec  = revsPerMin / 60.0;
+  float stepsPerSec = revsPerSec * MICROSTEPS_PER_REV;
+  // Apply direction: positive = forward, negative = reverse
+  return (DIRECTION == 'r') ? -stepsPerSec : stepsPerSec;
+}
+
+void setup() {
+  pinMode(3, OUTPUT); pinMode(2, OUTPUT);
+  pinMode(5, OUTPUT); pinMode(4, OUTPUT);
+  pinMode(7, OUTPUT); pinMode(6, OUTPUT);
+
+  float speed1 = calcSpeed(FLOW_RATE_1_ML_PER_MIN);
+  float speed2 = calcSpeed(FLOW_RATE_2_ML_PER_MIN);
+  float speed3 = calcSpeed(FLOW_RATE_3_ML_PER_MIN);
+
+  stepper1.setMaxSpeed(abs(speed1) * 1.1);
+  stepper1.setSpeed(speed1);
+
+  stepper2.setMaxSpeed(abs(speed2) * 1.1);
+  stepper2.setSpeed(speed2);
+
+  stepper3.setMaxSpeed(abs(speed3) * 1.1);
+  stepper3.setSpeed(speed3);
+}
+
+void loop() {
+  stepper1.runSpeed();
+  stepper2.runSpeed();
+  stepper3.runSpeed();
+}

@@ -3,11 +3,7 @@ title: "Custom 3D Printed Pickleball Paddle"
 excerpt: "An offical sized 3D Printed Pickleball Paddle."
 header:
   image: assets/img/IMG_0408.jpeg
-  teaser: assets/img/IMG_8872.jpeg
-gallery:
-  - image_path: assets/img/IMG_8870.jpeg
-  - image_path: assets/img/IMG_8873.jpeg
-  - image_path: assets/img/IMG_8872.jpeg
+  teaser: assets/img/IMG_0426.jpeg
 
 ---
 # Following Appropriate Standards 
@@ -30,5 +26,9 @@ The typical paddle board now is typically 8 ounces. With the choice of PLA to de
 ![iteration](/assets/img/IMG_0412.jpeg)
 ![iteration](/assets/img/IMG_0414.jpeg)
 ![iteration](/assets/img/IMG_0415.jpeg)
+![iteration](/assets/img/IMG_0422.HEIC)
+![iteration](/assets/img/IMG_0423.jpeg)
+![iteration](/assets/img/IMG_0427.jpeg)
 ![iteration](/assets/img/IMG_0418.heic)
+
 

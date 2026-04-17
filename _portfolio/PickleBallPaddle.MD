@@ -2,7 +2,7 @@
 title: "Custom 3D Printed Pickleball Paddle"
 excerpt: "An offical sized 3D Printed Pickleball Paddle."
 header:
-  image: assets/img/IMG_8871.jpeg
+  image: assets/img/IMG_0408.jpeg
   teaser: assets/img/IMG_8872.jpeg
 gallery:
   - image_path: assets/img/IMG_8870.jpeg

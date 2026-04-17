@@ -28,3 +28,5 @@ The typical paddle board now is typically 8 ounces. With the choice of PLA to de
 
 ![iteration](/assets/img/IMG_0411.jpeg)
 ![iteration](/assets/img/IMG_0412.jpeg)
+![iteration](/assets/img/IMG_0414.jpeg)
+![iteration](/assets/img/IMG_0415.jpeg)

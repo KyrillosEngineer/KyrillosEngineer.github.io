@@ -39,7 +39,7 @@ Clearance and tolerance was accounted for in the original design and print as th
 
 # Materials and Instructions 
 
-| Material  | Number |
+| Material  | Quantity |
 | ------------- | ------------- |
 | M5 x 5.7 Heat Insert | 4  |
 | M5x30mm Screws | 2  |

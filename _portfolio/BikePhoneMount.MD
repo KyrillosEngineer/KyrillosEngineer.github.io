@@ -2,12 +2,12 @@
 title: "Custom Bike Phone Mount"
 excerpt: "This custom bike phone mount rotates landscape and portrait."
 header:
-  image: assets/img/IMG_8871.jpeg
-  teaser: assets/img/IMG_8872.jpeg
+  image: assets/img/IMG_0451.jpeg
+  teaser: assets/img/IMG_0454.jpeg
 gallery:
-  - image_path: assets/img/IMG_8870.jpeg
-  - image_path: assets/img/IMG_8873.jpeg
-  - image_path: assets/img/IMG_8872.jpeg
+  - image_path: assets/img/IMG_0457.jpeg
+  - image_path: assets/img/IMG_0465.jpeg
+  - image_path: assets/img/IMG_0466.jpeg
 
 ---
 # Description (background)
@@ -35,7 +35,14 @@ Clearance and tolerance was accounted for in the original design and print as th
 
 # Working Demonstration  
 
-![Gif of Pliers Working](/assets/img/Adobe Express - IMG_8869-2.gif)
+![Putting on the Phone](assets/IMG_0449-ezgif.com-video-to-gif-converter.gif)
+The following depicts placing the phone on the mount. 
+
+![Phone Spinning](assets/IMG_0447-ezgif.com-video-to-gif-converter.gif)
+The following depicts the phone on the mount spinning. 
+
+![Phone Spinning Closer](assets/IMG_0450-ezgif.com-video-to-gif-converter.gif)
+The depicts a closer look of the phone on the mount spinning. 
 
 # Materials and Instructions 
 

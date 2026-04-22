@@ -35,13 +35,13 @@ Clearance and tolerance was accounted for in the original design and print as th
 
 # Working Demonstration  
 
-![Putting on the Phone](assets/IMG_0449-ezgif.com-video-to-gif-converter.gif)
+![Putting on the Phone](/assets/IMG_0449-ezgif.com-video-to-gif-converter.gif)
 The following depicts placing the phone on the mount. 
 
-![Phone Spinning](assets/IMG_0447-ezgif.com-video-to-gif-converter.gif)
+![Phone Spinning](/assets/IMG_0447-ezgif.com-video-to-gif-converter.gif)
 The following depicts the phone on the mount spinning. 
 
-![Phone Spinning Closer](assets/IMG_0450-ezgif.com-video-to-gif-converter.gif)
+![Phone Spinning Closer](/assets/IMG_0450-ezgif.com-video-to-gif-converter.gif)
 The depicts a closer look of the phone on the mount spinning. 
 
 # Materials and Instructions 
@@ -56,4 +56,4 @@ The depicts a closer look of the phone on the mount spinning.
 Following design and printing, assembly is simple. Remove excess supports and material. Begin by interesting the four M5 heat inserts in the, 2 in the bottom clamp and 2 in the top clamp. Following this, to build the ball dent mechanism, insert the ball and spring in the designated component in the top clamp piece. Attach the outer rotating clamp which has the phone holder already attached over the top of this (note: it will be a tight squeeze/be careful as the ball may pop out). Next, add the small threaded nut over the center pole for added security. From there, place your phone in the designated holder position. Add the other clamp to clamp the phone in place horizontally. Add the threaded nut to keep it in place. 
 
 
-{% include gallery caption="Rendering and real-life images of custom multimaterial pliers" %}
+{% include gallery caption="Rendering and real-life images of the bike mount including the components (spring and ball not pictured)" %}

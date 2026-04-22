@@ -26,10 +26,14 @@ As mentioned, the design of the bike phone mount underwent several design iterat
 
 After this research, what became most important to the success of the design was focusing on the ball dent mechanism. Inspiration was drawn from this simple ball dent mechanism [8](https://www.youtube.com/watch?v=qUkXTm1FJAw&t=80s). This design was implemented by designing an inner circular component to house a spring (20mm). With the ball (8mm) to sit on spring, this component also accounted for the idea that ⅔ of the ball could be housed in the component also. Following this design, an extruded circular pole could hold the other component. In my design, I decided to attach this inner component to the component which will attach to the bike mount. With these measurements, an outer component was designed with the dents of the ball extruded; this was possible through the circular pattern feature. With these designed indentations, as the outer component rotates around the inner component the spring will force the ball to lock the motion in place; this is identifiable by the clicking sound. The outer component was designed to fit in the circular pole coming from the inner component. In my design, I decided to thread this pole just enough to add a designed nut to hold the compartments in place without limiting the rotational movement. 
 
-![iteration]()
-![iteration]()
+![iteration](/assets/img/IMG_0456.jpeg)
+Cross-section view of internal rotation mechanism.
 
 Building of this mechanism, given the vertically threaded pole and threaded nut, the phone holder had to have been designed vertically. Inspiration was drawn from the following design [9](https://youtu.be/lbjfYI-VtNI?si=h-mKocR8QopmS4Th). A vertical pole was designed on each side of the threaded pole attached to the outer rotating component. These poles were attached to the phone holder mechanism. The beauty of this mechanism is it has two detachable parts that allow any size phone to fit and be locked appropriately. This vertical design allowed for something for the user to grab and spin to activate the rotation through the ball dent mechanism. 
+
+![iteration](/assets/img/IMG_0453.jpeg)
+Fusion Rendering of phone holder with phone on it.
+![iteration](/assets/img/IMG_0455.jpeg)
 
 Clearance and tolerance was accounted for in the original design and print as the compartment and pattern was designed with 4mm of clearance as if it were designed for a longer spring.This was especially necessary given the fact this would be 3d printed with filament which could shrink or create a tight fit. 3D printing with filament provides effective durability and temperature resistance. Preferably, this design should have been printed with PLA but, due to time constraints and filament shortages, ABS was chosen. Because my design did not utilize screws, ABS actually ended up working perfectly fine with minimal shortcomings. Each part was printed in ABS. ABS produced some warping specifically in the bottom clamp. Filament is best for quick and easy prototyping but in this case, given the orientation of design, there was so much support material beyond. Ultimately, this design worked as the ball dent mechanism produced rotational movement. Pictured are real-life individual images of each of the top-down components.
 

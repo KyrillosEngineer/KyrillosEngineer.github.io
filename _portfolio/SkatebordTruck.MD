@@ -55,7 +55,7 @@ The following model reflects the 17-4 PH (printed with Nylon 12) truck outcome c
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811373007d3efcf6220?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 The following is a rendering of the completed longboard assembly with the generative design
 17-4 PH (printed with Nylon 12) truck.
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028113a07214b18081fe7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811cb497807d7e39d1e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 When comparing the ALSi10Mg and 17-4 PH outcomes, although the same constraints were applied and a minimum safety factor of 2, ALSi10Mg notably produced a way more bulky outcome. This is notably because aluminum is less strong, the computer compromised by adding more material. The steel outcome appeared more refined as it is noted for its thinness. Less material here is a clear indication of the strength of the material. With this, 17-4 PH was chosen. Note that the design was ultimately printed with Nylon 12. It is possible that any areas that feel frail, given steel is way stronger, may have not felt this way. 
 

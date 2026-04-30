@@ -22,7 +22,7 @@ In regards to generative design, load cases are important as they significantly 
 
 | Name of Force  | Magnitude | Location  | Short Rational | Solution |
 | ------------- | ------------- |
-| Vertical load at the axle  | 1079 N | At the axle  | To represent the rider’s weight | For up to 110 kg person 110 kg x 9.81 m / s^2 |
+| Vertical load at the axle  | 1079 N | At the axle  | To represent the rider’s weight | For up to 110 kg person 110 kg x 9.81 m/ s^2 |
 | Torque at the motor mount  | 5 N*m | At the motor mount  | To represent belt-driven propulsion| Motor output torque (recommended by artificial intelligence)  |
 | Lateral load at the axle   | 540 N | At the axle  | To represent turning or carving |Half the initial static load |
 | Vertical load at the mount   | 25 N | At the axle  | To represent the weight of the motor | For 2.5 kg motor 2.5 kg x 9.81 m / s^2 |

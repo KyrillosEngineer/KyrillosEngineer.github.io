@@ -10,7 +10,7 @@ gallery:
   - image_path: assets/img/IMG_8872.jpeg
 
 ---
-# Description on Generative Design 
+# Description on Generative Design + Powder Bed Fusion 
 
 The purpose of this project was to capitalize on the unique pairing of powder bed fusion and generative design. Generative design is a process by which computer automated design systems use artificial intelligence to design alternative designs based on set parameters [1](https://www.autodesk.com/solutions/generative-design/manufacturing). Artificial intelligence produces innovative designs by testing the limits of a design given the geometry constraints to improved, consolidated, light weight, and sustainable designs. With multiple design iterations and options, generative design allows for optimized material usage. Likewise, powder bed fusion is the process by which powder is heated below melting point through radiant/convention heating to which a laser scans to provide energy as layers of powder are added layer by layer. The result is fast, batch prints that are support free and mechanically strong [2](https://www.protolabs.com/resources/design-tips/powder-bed-fusion/). Powder bed fusion is able to produce the unique shapes made by generative design easier than traditional 3D printing methods. 
 
@@ -40,50 +40,30 @@ With this it is plausible to state, artificial intelligence was able to determin
 
 
 # ALSi10Mg and 17-4 PH Models
-The following model reflects the multimaterial (print-in-place) nose pliers created.  
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811c1b3e412b5dbcaa1?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+The following model reflects the ALSi10Mg truck outcome created.  
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811e50dc84da5485552?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+The following is a rendering of the completed longboard assembly with the generative design
+ALSi10Mg truck.
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028113a07214b18081fe7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+The following model reflects the 17-4 PH (printed with Nylon 12) truck outcome created.  
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811373007d3efcf6220?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+The following is a rendering of the completed longboard assembly with the generative design
+17-4 PH (printed with Nylon 12) truck.
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028113a07214b18081fe7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 When comparing the ALSi10Mg and 17-4 PH outcomes, although the same constraints were applied and a minimum safety factor of 2, ALSi10Mg notably produced a way more bulky outcome. This is notably because aluminum is less strong, the computer compromised by adding more material. The steel outcome appeared more refined as it is noted for its thinness. Less material here is a clear indication of the strength of the material. With this, 17-4 PH was chosen. Note that the design was ultimately printed with Nylon 12. It is possible that any areas that feel frail, given steel is way stronger, may have not felt this way. 
 
+# Note on Generative Design 
 With this experience, the usefulness of generative design is extremely evident. The application of experimenting with different materials can be a clear means of optimizing shape, cutting costs, and gaining an expansive understanding of potential outcomes with different materials. As evident, the drawbacks appear to be the necessary information when creating a functional and optimal model. For one, with the necessity of different observe and preserve geometries, the process can seem double the work of simply creating a model. Double the work in a real-world setting can mean higher costs and time. Likewise, as evident by the final outcome, there is a necessity of physics to understand all the appropriate load cases that should be applied. Likewise, a level of intuition and thinking by the user is required. As seen in this project, generative design is amazing at creating light weight components especially when paired with the powdered printing. For reference, the steel component was 0.232 kg which is way less than any commercial option. Unfortunately, with this printing process, given the complex geometries produced, there is time needed for post-processing. With all this, it is plausible to see the application of generative design most useful in applications with low production volume but high performance needs. As mentioned, for this reason the technology has been used in the automotive and aerospace industries as making seat or engine brackets seem to be an appropriate example of a niche product with required constraints. 
-
-# Design and 3D Printing
-
-The design consisted of three parts: the jaws, the handles, and the center piece. The following design, being multimaterial, was created with PLA and TPU. The center “spring component”, which is essential for the movement of the pliers, was made with TPU due its high elasticity and high durability. The “jaws” and “handles” of the pliers, which are essential for usability of the pliers as the jaws are intended to grab on the resistor through the user controlling and squeezing the handles, were made out of PLA to ensure the rigid structure. 
-
-An iterative design approach was taken for this project. The center “spring component” took multiple attempts to design given this was my initial experience using the pattern feature on fusion.The center “spring component” had to be perfectly shaped to be contained inside the matching triangular pockets of the jaws and handles for adherence. Likewise, the center “spring component” required a certain print setting. For example, the layers of solid material were reduced to 0, the perimeters were increased (to 6), and the infill was changed to rectilinear with a sparse of 18%. The rectilinear orientation is essential as it creates the one direction movement; this paired with the elasticity of TPU makes it possible to move the jaws by squeezing the handles. Initially when printing the center “spring component” because the “teeth” of the design (for the locking mechanism) were not initially joined, the printer did not recognize the “teeth” as one design with the center and thus the teeth printed separately as apparent below. It is worth mentioning also 0.1mm overlap was added when printing this center “spring component” to ensure a tight fit. A standard 0.6mm nozzle was used for printing. The images below depict the center “spring component” iterative process.
-
-The following design was inspired by the various examples of pliers presented in class. As noted in class, the in-pocket triangular casings are rooted by traditional Japanese design. The in-pocket triangular casing allows the different materials to connect sound and tightness. 
 
 ![iteration](/assets/img/IMG_8900.jpeg)
 ![iteration](/assets/img/IMG_8901.jpeg)
 
 # Relavent Specifications 
 
-The jaw length is 95 mm. The tips of the jaw to grab the resistor is 10.5 mm long. The jaw capacity is 9.25 mm. 
-
 ![Gif of Pliers Working](/assets/img/Adobe Express - IMG_8869-2.gif)
 
-The following shows these custom multimaterial pliers are able to successfully pick and place at least one resistor.
-As seen, the pliers flex appropriately and successfully are able to move one resistor at minimum.
 
-# Adjusted Printing Settings 
-
-| Jaw and Handle Component Setting  | Adjustment |
-| ------------- | ------------- |
-| Infill Pattern | JuxtaPosition  |
-| Material | PLA  |
-| Top Solid Layers | 4  |
-| Bottom Solid Layers | 3  |
-
-| Center Component Setting  | Adjustment |
-| ------------- | ------------- |
-| Infill Pattern | Rectalinear  |
-| Infill Sparse | 18%  |
-| Fill Angle | 90 degrees  |
-| Material | TPU  |
-| Top Solid Layers | 0  |
-| Bottom Solid Layers | 0  |
-| Perimeter Contor | 6  |
 
 {% include gallery caption="Rendering and real-life images of custom multimaterial pliers" %}
